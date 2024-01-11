@@ -1,0 +1,10 @@
+manifiesto sobre base de datos
+
+1. Un modulo, el cual unifica el lenguaje en el cual están descriptos los datos.
+2. otro modulo, el cual logra clasificar, buscar patrones y analizar los datos.
+3, una estructura de "containers" los cuales puedan catalogar y/o conglomerar datos 
+4. modulo de seguridad, el cual restrinja y de permisos a ciertos contenedores
+5. un modulo para evitar inconsistencias en los datos rebundantes es decir misma " informacion" pero está distinta en dos containers
+6.
+
+lambda load_session_cache BeautifulSoup

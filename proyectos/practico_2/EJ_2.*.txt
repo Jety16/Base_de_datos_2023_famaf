@@ -1,0 +1,16 @@
+1) UPDATE countrylanguage SET percentage = 100.0 WHERE CountryCode = 'AIA' AND Language = 'English';
+
+Query OK, 1 row affected (0.12 sec)
+Rows matched: 1  Changed: 1  Warnings: 0
+
+
+2) SELECT district from city WHERE district = 'Córdoba' AND country_code = 'ARG';
+
+3) DELETE * from city WHERE district = 'Córdoba' AND country_code != 'ARG';
+
+4) SELECT name from country WHERE head_of_state LIKE '%John%';
+
+5) SELECT name, population from country where population <= 45000000 AND population >= 35000000;
+
+6) El campo capital dentro de country podría ser un clave foranea a country.
+
